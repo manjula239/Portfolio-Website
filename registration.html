@@ -1,0 +1,39 @@
+<html>
+    <head></head>
+    <body>
+        <div style="color:green">
+            <h2><a href="htmlDemo.html">Home</a></h2>
+
+        </div>
+        <div style="background-color: lightpink;">
+        <div style="border: 2px solid green;margin-right: 800px;">
+            <label style="color:red;">user registration</label>
+            <hr>
+           <form method ="get" action="congrats.html"><!-- the action att is same working like a (a href tag)-->
+            <label>username :</label><br><input type="text" name="username" id="name" autofocus required><br>
+            <label>password :</label><br><input type="text" name="password" id="password" required minlength="8">
+            <br>
+            <label>Email :</label><br><input type="email" name="email" required minlength="4" maxlength="30">
+            <br>
+            <label>select language :</label>
+            <select multiple required><!--mutiple selection-->
+                <option>java</option>
+                <option disabled>spring boot</option><!---the ele disable-->
+                <option>python</option>
+                <option>c</option>
+            </select>
+            <br>
+            <label>Gender :</label><br>
+            <input type="radio" name="Gender" value="Male" id="Male" checked>Male<br><!---in the name attribute on radio give same name"gender"the two fields has same group user selects one-->
+            <input type="radio" name="Gender" value="Female" id="Female">Female<br>
+            <label>Address</label><textarea name="text" width="20px" height="20px"> </textarea><br>
+            <label>Upload File :</label><input type="file" name="file">
+            <div style="padding: 5px"></div>
+            <input type="reset" name="reset">
+            <input  type="submit" name="login">
+           </div>
+            <br>
+           </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,265 @@
+<html>
+
+<head>
+    <title>web Development</title>
+    <meta charset="UTF-8">
+    <meta name="aurthor" content="kumar">
+    <meta name="description" content="web development">
+    <meta name="viewport" content="width-device-width,intial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        .xyz {
+            border: 2px solid green;
+            /* ---->outside the border space */
+            /* percentage or px our choice */
+            /* margin-top: 10px;
+            margin-left: 20%;
+            margin-bottom: 10px;
+            margin-right: 20%; */
+            /* margin: 20px 20px 20px 20px; */
+            /* margin:20%;  */
+            /* <!--left,right,top,bottom;--> */
+            margin: 10px 20px;
+            /* first->top,bottom;second->left,right */
+
+
+            /* ---->outside the border */
+            /* padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px; */
+            /* all sides are same */
+            /* padding:10px; */
+            /* first->top,bottom;second->left,right */
+            padding: 10px 20px;
+            height: 200px;
+            width: 200px;
+            float: left;
+            /* height:200px;
+            width:200px; */
+            text-align: left;
+            /* inside the text is center */
+            /* text-decoration: underline; */
+            /* underline the text */
+            /* text-decoration: line-through; */
+            /* override and strike the text */
+            /* text-transform:uppercase; */
+            /* all the text convert to uppercase */
+            text-shadow: brown;
+            color: red;
+            font-size: 15px;
+            font-weight: bold;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-variant: inherit;
+            font-display: inherit;
+
+        }
+        .overflow{
+            border:2px solid green;
+            margin-top: 30%;
+            padding: 20px;
+            width:200px;
+            height:100px;
+            overflow-x: scroll;
+            overflow-y: scroll;
+        }
+
+        .block {
+            color: green;
+            font-size: 10px !important;
+            font-weight: inherit;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            /* background-color: green; */
+            color: red;
+            text-decoration: underline;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* a:link{
+            color:yellow;
+        }
+        a:visited{
+            color:aqua;
+        }
+         */
+         ul,ol,dl{
+            color:green;
+            background:red;
+            margin-left: 60px;
+            margin-right: 60%;
+         }
+         table{
+            background-color: green;
+            margin-right: 40px;
+            margin-left: 40px;
+
+         }
+         table,th,td{
+            border:1px solid purple;
+            border-collapse: collapse;
+            text-align: left;
+            padding:5px;
+            color: red;
+            
+
+         }
+
+    </style>
+
+</head>
+
+<body>
+    <div style="color:red">
+        <h2><a href="htmlDemo.html">Home</a></h2>
+
+    </div>
+    <table>
+        <caption style="color:red;"><b>Data Table</b></caption><!--table name-->
+        <tr>
+            <th>first name</th>
+            <th>Last Name</th>
+            <th>Phone num</th>
+            <th>Image</th>
+            <th>Link</th>
+        </tr>
+        <tr >
+            <td>kiran kumar</td>
+            <td>allaka</td>
+            <td>763712</td>
+            <td> <img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="200px" height="200px"></td>
+            <td><a href="https://www.fb.com" target="_blank">click me</a></td>
+        </tr>
+        <tr><td>rithvik</td>
+            <td>vidumudi</td>
+            <td>999907809</td>
+            <td colspan="2"><img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="250px" height="200px"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">durga </td>
+            <td rowspan="2">ella</td><!--combine two rows same name and surn name -->
+            <td>533103</td>
+            <td> <img src="C:\Users\user\Desktop\HtmlYHills\pexels-lalesh-aldarwish-194511.jpg" width="200px" height="200px"></td>
+            <td><a href="https://www.youtube.com" target="_blank">click me</a></td>
+        </tr> 
+        <tr>
+            <td>533104</td><!--previes person data will occupie-->
+            <td colspan="2"><img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="250px" height="200px"></td>
+        </tr>
+       </table><br>
+
+
+
+
+
+
+
+
+
+    <h1 style="text-align: center;color:green;border: 2px solid grey;padding: 10px;">
+        <marquee direction="left">
+            <i>web development</i>
+        </marquee>
+    </h1>
+    <div>
+        <i class="material-icons">cloud</i>
+        <a href="https://www.google.com"><i class="material-icons">computer</i></a><br>
+        <a href="https://www.google.com" target="_blank">click me</a>
+    </div>
+    <hr style="border: 2px solid red;">
+    <p class="xyz">hello web dev Search for English Paragraph Writing at SmartResultsNow. Attractive Results</p>
+
+    <p class="xyz">
+        <span class="block" style="font-size:  20px;">hello</span> Paragraphs are the building blocks of papers. Many
+        students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is
+        half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes
+        a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford
+        and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For
+        instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence
+        long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout,
+        we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
+    </p>
+    <div class="overflow">
+        Paragraphs are the building blocks of papers. Many
+        students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is
+        half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes
+        a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford
+        and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For
+        instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence
+        long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout,
+        we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragrap
+        <div style="border: inherit; margin: inherit;">
+            hello
+        </div>
+    </div>
+
+    <h2>unorder list default</h2>
+    <ul>
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <h2>unorder list square</h2>
+    <ul type="square"><!--unorder list (without type att dotcircle)type=square,circle-->
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <h2>unorder list circle</h2>
+    <ul type="circle">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <h2>order list default</h2>
+    <ol><!---order list-->
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="A">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="a">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="I">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="i">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <br>
+    <h2>defination list</h2>
+    <dl><!--defination list-->
+        <dt>java</dt><!--defination term--->
+        <dd>java is opps,its writes once read any where</dd><!--defination description-->
+        <dt>html</dt>
+        <dd>markup language</dd>
+        <dt>spring boot</dt>
+        <dd>di frame</dd>
+    </dl>
+    <br><br>
+
+
+
+</body>
+
+</html>

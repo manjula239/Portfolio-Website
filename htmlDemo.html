@@ -1,0 +1,312 @@
+<!--tag attribute=""> hsshss</tag>tag-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web Development</title>
+    <meta charset="UTF-8">
+    <meta name="aurthor" content="kumar">
+    <meta name="description" content="web development">
+    <meta name="viewport" content="width-device-width,intial-scale=1.0">
+    <link rel="stylesheet" href="demo.css"><!--external css-->
+    <!---internal css-->
+    <style>
+        /* body{
+            background-image: url("download.jpeg");
+            background-repeat: repeat-x;
+        } */
+        p{
+            color: skyblue;
+        }
+        p span{
+            color:blueviolet;
+        }
+        .xyz{
+            color: red;
+        }
+        #zz{
+            color: brown;
+        }
+        p:hover{
+            color:blue
+        }
+        p{
+            /* background-color: red; */
+            /* border-style: double;
+            border-width: 5px;
+            border-color: black; */
+            border: 2px solid red;
+            border-radius: 1000px;
+            cursor: wait;
+            
+            /* cursor pointer,zoomin,zoomout,wait */
+            /* solid,dotted,double */
+            /* background-image: url("pexels-bess-hamiti-36487.jpg"); */
+            /* background-repeat: repeat-x; */
+        }
+        img{
+            border-radius: 150px;
+            border-top-right-radius: 200px;
+            /* display:none; */
+        }
+    </style>
+    <!---p:hover (selector)used to change the color curser placed-->
+    <!---there are two properties in internal css but last property it will take-->
+    <!--we also change the specific tag style using class name-->
+</head>
+
+<Body>
+    <p>hello
+        <p class="xyz">kumar</p>
+    </p>
+    <p>hi
+        <span>op</span>
+    </p>
+    <p class="xyz">hello</p><!--class refers to "."-->
+    <p id="zz">kiran</p><!--id refers to "#"-->
+    <!--<div style="background-color:lightgreen;">-->
+    <h1 style="text-align: center;color:green;border: 2px solid grey;padding: 10px;">
+        <marquee direction="left">
+            <i>web development</i>
+        </marquee>
+        <marquee direction="down">
+            <i>web development</i>
+        </marquee>
+        <marquee direction="right">
+            <i>web development</i>
+        </marquee>
+        <marquee direction="up">
+            <i>web development</i>
+        </marquee>
+    </h1> <!--style attribute is used for color the text-->
+    <!--<h2 style="text-align: center;"><i>web development </i></h2>--->
+    <!-- <h3>web development</h3>
+        <h4>web development</h4>
+        <h5>web development</h5>
+        <h6>web development</h6> -->
+    <!-- block element inline element -->
+    <!--<p>web development</p>---><!--it show entire browser-->
+    <!--<div>heading</div>  ---><!---it is also paragraph tag-->
+    <!--<span><b>day 2</b></span>--><!----only the text size-->
+    <!--b tag is used for bold the text-->
+    <!---href=means hyperlink reference-->
+    <!-- <a href="https://www.youtube.com" target="_blank">click me</a>-show the given link and redirect to that linktarget attribute is used to open in new tab -->
+    <!-- <img src="pexels-lalesh-aldarwish-194511.jpg" width=300px height=300px alt="image"><!--downloaded img location in local system-->
+    <!--it show click me-->
+    <!-- <a href="https://www.google.com" target="_blank">
+            <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=600" width=300px height=300px alt="another img"><!---img address-->
+    <!-- </a>when ever the cursor point the img the pointer is convert to hand -->
+    <!--</div>-->
+    <!---<button>click</button>-->
+    <div>hello<mark>kiran</mark></div><!--in b/w the mark tag will highlighted with color-->
+    <p>
+        <b>What</b> is a paragraph? Paragraphs are the building <mark> of papers.</mark> Many students define paragraphs in terms of
+        length: a paragraph is a group of at least five sentences, a <em>hello</em> is half a page long, etc. In reality,
+        though, the unity and coherence of <small>helps</small> ideas among sentences is what constitutes a paragraph.
+        <br>
+        A<p>&#65;&#66;&#67;&#68;</p><!--asscii values-->
+        <p>&#128500;</p><!--asscii values for emojies-->
+        <p>&#128501;</p>
+        <p>&#128502;</p>
+        <p>&#128503;</p>
+        <p>&#128504;</p>
+        <p>&#128512;</p>
+        <p>&#128513;</p>
+        <p>&#128526;</p>
+        x=10;
+        y=9;
+        z=11;
+        <Strike>E=mc2</Strike>
+        <var>E</var>=<var>mc</var><sup>2</sup>
+        <code>
+            x=10;
+            y=9;
+            z=11;
+        </code>
+    </p>
+    <progress id="filedownload" values="46" max="100">32%</progress>
+    <meter value="0.5"></meter>
+    <h2>there are 3 types in css <br>1.inline css <br>2.internal css <br>3.external css</h2>
+    <div style="background-color: red;"><!---inline css-->
+        hello
+    </div>
+
+    <div>
+        <span style="color:green;"> <a href="registration.html">user registration</a></span>
+        <span style="padding-left: 20px;"></span>
+        <span style="color:green;"> <a href="usertable.html">user table</a></span>
+        <span style="padding-left: 20px;"></span>
+        <span style="color:green;"> <a href="userimages.html">user images</a></span>
+    </div>
+    <br><br>
+    <div style="border: 2px solid blue;">
+        <label style="color:red;">user registration</label>
+        <hr>
+        <form method="get" action="xyz.do">
+            <!--the method "get" enter ditails will be shown in url and the "post method did not show any data"-->
+            <label>username :</label><br><input type="text" name="username" id="name" autofocus required><br>
+            <label>password :</label><br><input type="text" name="password" id="password" required minlength="8">
+            <br>
+            <label>Email :</label><br><input type="email" name="email" required minlength="4" maxlength="20">
+            <br>
+            <label>select language :</label>
+            <select multiple required><!--mutiple selection-->
+                <option>java</option>
+                <option disabled>spring boot</option><!---the ele disable-->
+                <option>python</option>
+                <option>c</option>
+            </select>
+            <br>
+            <label>Gender :</label><br>
+            <input type="radio" name="Gender" value="Male" id="Male"
+                checked>Male<br><!---in the name attribute on radio give same name"gender"the two fields has same group user selects one-->
+            <input type="radio" name="Gender" value="Female" id="Female">Female<br>
+            <label>Address</label><textarea name="text" width="20px" height="20px"> </textarea><br>
+            <label>Upload File :</label><input type="file" name="file">
+            <div style="padding: 5px"></div>
+            <input type="reset" name="reset">
+            <input type="submit" name="login">
+    </div>
+    <br>
+    </form>
+
+    <table align="center" border="1" style="border-color:green;border-collapse: collapse; border-radius: 5px;">
+        <caption style="color:red;"><b>Data Table</b></caption><!--table name-->
+        <tr>
+            <th>first name</th>
+            <th>Last Name</th>
+            <th>Phone num</th>
+            <th>Image</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>kiran kumar</td>
+            <td>allaka</td>
+            <td>763712</td>
+            <td> <img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="200px" height="200px">
+            </td>
+            <td><a href="https://www.fb.com" target="_blank">click me</a></td>
+        </tr>
+        <tr>
+            <td>rithvik</td>
+            <td>vidumudi</td>
+            <td>999907809</td>
+            <td colspan="2"><img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="250px"
+                    height="200px"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">durga </td>
+            <td rowspan="2">ella</td><!--combine two rows same name and surn name -->
+            <td>533103</td>
+            <td> <img src="C:\Users\user\Desktop\HtmlYHills\pexels-lalesh-aldarwish-194511.jpg" width="200px"
+                    height="200px"></td>
+            <td><a href="https://www.youtube.com" target="_blank">click me</a></td>
+        </tr>
+        <tr>
+            <td>533104</td><!--previes person data will occupie-->
+            <td colspan="2"><img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="250px"
+                    height="200px"></td>
+        </tr>
+    </table><br>
+
+
+    <h2>displaying videos</h2>
+    <video width="300px" height="300px" controls autoplay loop><!--control att used to display the buttons -->
+        <source src="C:\Users\user\Downloads\samplevideo.mp4" type="video/mp4">
+    </video>
+
+
+    <h2>another way video</h2>
+    <iframe width="200px" height="200px"
+        src="https://player.vimeo.com/external/502936024.sd.mp4?s=4f7ae4f7b39963b66d262a627a469eecf2b74fb6&profile_id=164&oauth2_token_id=57447761"></iframe><!--video source from another site-->
+    <br><!---we also use youtube address link few videos are playable based on the policy -->>
+
+
+    <h2>displaying the audio</h2>
+    <audio width="100px" height="50px" controls><!--audio file-->
+        <source src="C:\Users\user\Downloads\sampleaudio.mp3" type="audio/mp3">
+    </audio>
+    <br>
+
+
+    <h2>text abbrevation</h2>
+    <div style="color:red;">
+        hello kiran <abbr title="it is order list to display">ol</abbr>25<sup>th</sup>H<sub>2</sub>O<!--sub,sup tag-->
+    </div>
+    <h1 style="color:blue;" title="hello">cursour view</h1>
+
+
+    <h2>img for caption</h2>
+    <figure>
+        <img src="C:\Users\user\Desktop\HtmlYHills\pexels-bess-hamiti-36487.jpg" width="200px" height="200px"
+            alt="img error">
+        <figcaption>this is a <q>dummy img</q></figcaption><!--q tag is used for quatations-->
+    </figure>
+
+
+
+
+
+
+
+
+    <h2>unorder list default</h2>
+    <ul>
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <h2>unorder list square</h2>
+    <ul type="square"><!--unorder list (without type att dotcircle)type=square,circle-->
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <h2>unorder list circle</h2>
+    <ul type="circle">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <h2>order list default</h2>
+    <ol><!---order list-->
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="A">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="a">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="I">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <ol type="i">
+        <li>java</li>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <br>
+    <h2>defination list</h2>
+    <dl><!--defination list-->
+        <dt>java</dt><!--defination term--->
+        <dd>java is opps,its writes once read any where</dd><!--defination description-->
+        <dt>html</dt>
+        <dd>markup language</dd>
+        <dt>spring boot</dt>
+        <dd>di frame</dd>
+    </dl>
+    <br><br>
+
+
+</Body>
+
+</html>
